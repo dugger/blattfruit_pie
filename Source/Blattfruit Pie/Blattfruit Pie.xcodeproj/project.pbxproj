@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEDA6361F44D65C003B6E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA6351F44D65C003B6E05 /* AppDelegate.m */; };
+		FAEDA6391F44D65C003B6E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA6381F44D65C003B6E05 /* main.m */; };
+		FAEDA63C1F44D65C003B6E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA63B1F44D65C003B6E05 /* ViewController.m */; };
+		FAEDA63F1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA63D1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodeld */; };
+		FAEDA6411F44D65C003B6E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA6401F44D65C003B6E05 /* Assets.xcassets */; };
+		FAEDA6441F44D65C003B6E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA6421F44D65C003B6E05 /* Main.storyboard */; };
+		FAEDA64C1F44D7F1003B6E05 /* blattfruit.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA64B1F44D7F1003B6E05 /* blattfruit.png */; };
+		FAEDA64E1F44DFA5003B6E05 /* pcc.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA64D1F44DFA5003B6E05 /* pcc.png */; };
+		FAEDA6501F44E041003B6E05 /* pcc.512.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA64F1F44E041003B6E05 /* pcc.512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEDA6311F44D65C003B6E05 /* Blattfruit Pie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blattfruit Pie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDA6341F44D65C003B6E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAEDA6351F44D65C003B6E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAEDA6381F44D65C003B6E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEDA63A1F44D65C003B6E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAEDA63B1F44D65C003B6E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAEDA63E1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blattfruit_Pie.xcdatamodel; sourceTree = "<group>"; };
+		FAEDA6401F44D65C003B6E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEDA6431F44D65C003B6E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEDA6451F44D65C003B6E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEDA64B1F44D7F1003B6E05 /* blattfruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blattfruit.png; path = "Blattfruit Pie/blattfruit.png"; sourceTree = "<group>"; };
+		FAEDA64D1F44DFA5003B6E05 /* pcc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pcc.png; path = "Blattfruit Pie/pcc.png"; sourceTree = "<group>"; };
+		FAEDA64F1F44E041003B6E05 /* pcc.512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pcc.512.png; path = "Blattfruit Pie/pcc.512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEDA62E1F44D65C003B6E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEDA6281F44D65C003B6E05 = {
+			isa = PBXGroup;
+			children = (
+				FAEDA6331F44D65C003B6E05 /* Blattfruit Pie */,
+				FAEDA6321F44D65C003B6E05 /* Products */,
+				FAEDA64B1F44D7F1003B6E05 /* blattfruit.png */,
+				FAEDA64D1F44DFA5003B6E05 /* pcc.png */,
+				FAEDA64F1F44E041003B6E05 /* pcc.512.png */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEDA6321F44D65C003B6E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA6311F44D65C003B6E05 /* Blattfruit Pie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEDA6331F44D65C003B6E05 /* Blattfruit Pie */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA6341F44D65C003B6E05 /* AppDelegate.h */,
+				FAEDA6351F44D65C003B6E05 /* AppDelegate.m */,
+				FAEDA63A1F44D65C003B6E05 /* ViewController.h */,
+				FAEDA63B1F44D65C003B6E05 /* ViewController.m */,
+				FAEDA6401F44D65C003B6E05 /* Assets.xcassets */,
+				FAEDA6421F44D65C003B6E05 /* Main.storyboard */,
+				FAEDA6451F44D65C003B6E05 /* Info.plist */,
+				FAEDA63D1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodeld */,
+				FAEDA6371F44D65C003B6E05 /* Supporting Files */,
+			);
+			path = "Blattfruit Pie";
+			sourceTree = "<group>";
+		};
+		FAEDA6371F44D65C003B6E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA6381F44D65C003B6E05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEDA6301F44D65C003B6E05 /* Blattfruit Pie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDA6481F44D65C003B6E05 /* Build configuration list for PBXNativeTarget "Blattfruit Pie" */;
+			buildPhases = (
+				FAEDA62D1F44D65C003B6E05 /* Sources */,
+				FAEDA62E1F44D65C003B6E05 /* Frameworks */,
+				FAEDA62F1F44D65C003B6E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blattfruit Pie";
+			productName = "Blattfruit Pie";
+			productReference = FAEDA6311F44D65C003B6E05 /* Blattfruit Pie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEDA6291F44D65C003B6E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Riot-Gear";
+				TargetAttributes = {
+					FAEDA6301F44D65C003B6E05 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAEDA62C1F44D65C003B6E05 /* Build configuration list for PBXProject "Blattfruit Pie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEDA6281F44D65C003B6E05;
+			productRefGroup = FAEDA6321F44D65C003B6E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEDA6301F44D65C003B6E05 /* Blattfruit Pie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEDA62F1F44D65C003B6E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA64E1F44DFA5003B6E05 /* pcc.png in Resources */,
+				FAEDA6411F44D65C003B6E05 /* Assets.xcassets in Resources */,
+				FAEDA64C1F44D7F1003B6E05 /* blattfruit.png in Resources */,
+				FAEDA6501F44E041003B6E05 /* pcc.512.png in Resources */,
+				FAEDA6441F44D65C003B6E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEDA62D1F44D65C003B6E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA63C1F44D65C003B6E05 /* ViewController.m in Sources */,
+				FAEDA63F1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodeld in Sources */,
+				FAEDA6391F44D65C003B6E05 /* main.m in Sources */,
+				FAEDA6361F44D65C003B6E05 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEDA6421F44D65C003B6E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEDA6431F44D65C003B6E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEDA6461F44D65C003B6E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAEDA6471F44D65C003B6E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAEDA6491F44D65C003B6E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Blattfruit Pie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riot-gear.Blattfruit-Pie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEDA64A1F44D65C003B6E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Blattfruit Pie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riot-gear.Blattfruit-Pie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEDA62C1F44D65C003B6E05 /* Build configuration list for PBXProject "Blattfruit Pie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA6461F44D65C003B6E05 /* Debug */,
+				FAEDA6471F44D65C003B6E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDA6481F44D65C003B6E05 /* Build configuration list for PBXNativeTarget "Blattfruit Pie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA6491F44D65C003B6E05 /* Debug */,
+				FAEDA64A1F44D65C003B6E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAEDA63D1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAEDA63E1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodel */,
+			);
+			currentVersion = FAEDA63E1F44D65C003B6E05 /* Blattfruit_Pie.xcdatamodel */;
+			path = Blattfruit_Pie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAEDA6291F44D65C003B6E05 /* Project object */;
+}
