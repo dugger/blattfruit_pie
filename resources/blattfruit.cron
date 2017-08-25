@@ -1,1 +1,1 @@
-*/5 * * * * ~/.blattfruit/blattfruit.sh
+*/2 * * * * ~/.blattfruit/blattfruit.sh

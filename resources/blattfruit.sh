@@ -1,15 +1,12 @@
+# Get the next timestamp from the file
 next_ts=$(head -n 1 ~/.blattfruit/blattfruit.next)
 
-if [ "$next_ts" -lt "$(date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s")" ]; then
-  open ~/.blattfruit/blattfruit.app
+# If the next ts has passed...
+if [ "$next_ts" -lt "$(date +"%s")" ]; then
+  # Open the widow.
+  open ~/.blattfruit/Blattfruit\ Pie.app
+  # Set the next time stamp to 10-60 days from now.
   rm ~/.blattfruit/blattfruit.next
-fi
-
-new_ts=$(curl https://your.timestamp.com)
-last_ts=$(head -n 1 ~/.blattfruit/blattfruit.log)
-
-if [ "$new_ts" -gt "$last_ts" ]; then
-  echo $new_ts | cat - ~/.blattfruit/blattfruit.log > ~/.blattfruit/temp
-  mv ~/.blattfruit/temp ~/.blattfruit/blattfruit.log
+  new_ts=$(( $(jot -r 1  0 50976000) + 86400 +  $(date +"%s") ))
   echo $new_ts > ~/.blattfruit/blattfruit.next
 fi

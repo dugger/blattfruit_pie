@@ -4,25 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/AppIcon.icns</key>
-		<data>
-		O9izqWhuodpMTzRZcBIz1PcHWGs=
-		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		yRG9oXaYHPs8eNvzKn7S0Dp8EzQ=
+		qsOik/s70q2eT6x3j9NQLNl4Tis=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		IkBdo18YENVXrt6NdezSyWcS/OE=
+		9xtozdtsJP1f05YIySEGSvr1wfc=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		bC0qMOwGtz6r7ph7ufOI/ufR7is=
+		mTf0+ekU/T675ZRL0UZ0CcCTnSg=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		NtOBT9cm4UaG/XYCqwufhxCwbKU=
+		qaJuFpCoyiRFUvPB/nVjF078XEo=
 		</data>
 		<key>Resources/Blattfruit_Pie.momd/Blattfruit_Pie.mom</key>
 		<data>
@@ -51,39 +47,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Resources/AppIcon.icns</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lzkAshNqHXC96jnvYuuQE0xqWMddVI1n+Gj2qPCC8C0=
-			</data>
-		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8AllnceR+gaJgFq8cYFbv5EhFzK9VNJG1ab1ChhaWI=
+			9iQFw7lYNzXmQLHFpzDAMveUaBtwC8hqv+aM3I0eA8Y=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6VBGJd1KNIRYowUUKI04oZwh0dM3OfCffFvug0zVQU=
+			b5TQmZ2ul/WcsIqiNYYuiO4yWI6aqKy3GTPqY/j3jPc=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dvAtUnamfF5eYL9z4B9iV7tCS3PxpcN7l6jskrVbj0k=
+			wRj4qvqSVC0Lo3hhhvUwwZvktVcJb/0MOSY5nnHIlSA=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+DoeIA8XbWLVFXK/U3bfBNfB6H/c1Hz6UbV+anxARY=
+			VPTtyz4eap70WRenL2D+uSU4fb1OVE9Ov6kfdXwZF4M=
 			</data>
 		</dict>
 		<key>Resources/Blattfruit_Pie.momd/Blattfruit_Pie.mom</key>
