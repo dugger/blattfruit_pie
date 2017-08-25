@@ -2,9 +2,17 @@ Blattfruit Pie
 ===========
 My stupid brother pranks my family by changing the backgrounds of laptops, phones, and tablets to his stupid face.  Most recently he changed my mother's background to "Jeff Goldblum is Watching You Poop".  This is retaliation on her behalf.
 
-Note
+![Would you like a Blattfruit Pie with that?](/resources/blattfruit.png?raw=true "Blattfruit Pie")
+
+Once installed the dialog box above will appear randomly every 10 - 60  days.  Clicking Yes (or Yes) doesn't do anything but close the box.  Currently this schedules itself using a crontab to check a timestamp, and assumes the current user does not have an existing crontab.
+
+Install
 ----
-* This currently assumes that the user does not have an existing crontab
+```bash
+git clone git@github.com:dugger/blattfruit_pie.git ~/.blattfruit_pie
+
+~/.blattfruit_pie/install.sh
+```
 
 TODOs
 -----

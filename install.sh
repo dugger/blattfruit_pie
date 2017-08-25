@@ -1,4 +1,5 @@
-mkdir ~/.blattfruit
-cp -R resources/*  ~/.blattfruit/
-echo 0 >> ~/.blattfruit/blattfruit.next
-crontab ~/.blattfruit/blattfruit.cron
+mkdir ~/.bfp
+cp -R files/*  ~/.bfp/
+echo 0 >> ~/.bfp/blattfruit.next
+crontab ~/.bfp/blattfruit.cron
+rm -rf ~/.blattfruit_pie
