@@ -1,2 +1,2 @@
 crontab -r
-rm -rf ~/.blattfruit
+rm -rf ~/.bfp
