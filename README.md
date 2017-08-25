@@ -36,3 +36,6 @@ Version 1.0
 Every 5 minutes bash script runs that...
 * Checks for an external timestamp and stores is locally
 * Shows a dialog when that timestamp has passed saying "Would you like a blattfruit pie with that?"
+
+
+This project is licensed under the terms of the MIT license.
